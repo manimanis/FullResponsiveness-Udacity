@@ -1,0 +1,91 @@
+/*
+
+Your styles go here!
+
+Hint! You'll probably want to start by styling:
+  * <body>
+  * <article>
+  * <h1>
+  * <img>
+
+I've left some boilerplate below for you.
+
+*/
+
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Roboto', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+article {
+  max-width: 50em;
+  padding: 1em;
+  margin: 0 auto;
+  box-shadow: 0px 0px 5px #000;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  margin: 0;
+  padding: 5px;
+}
+
+figcaption {
+  background-color: #666;
+  color: #fff;
+  font: italic medium sans-serif;
+  padding: 5px 10px;
+}
+
+.footer-menu {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.footer-menu li {
+  display: inline-block;
+  padding: 0 10px 0 0;
+  border-radius: 5px;
+  border-top: solid #000 thin;
+  border-right: solid #000 thin;
+  border-bottom: solid #000 thin;
+}
+
+.footer-menu a, .footer-menu a:active {
+  /*text-shadow: 2px 2px 5px #666;*/
+  width: 2em;
+  padding: 1.5em inherit;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-menu a:before {
+  padding: 5px 5px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 10px;
+  display: inline-block;
+  width: 2em;
+  text-align: center;
+}
